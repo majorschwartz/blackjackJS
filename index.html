@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="cards"></div>
+    <div class="sum">
+      <span id="sum-el">Current Sum: </span>
+    </div>
+    <div class="question-answer">
+      <p id="dealer"></p>
+      <p id="question-el"></p>
+      <div id="hit-stand" style="display: none">
+        <button onclick="hit()">Hit</button>
+        <button onclick="stand()">Stand</button>
+      </div>
+      <div id="retry" style="display: none">
+        <button onclick="init()">Retry</button>
+      </div>
+      <div>
+        <p>Wins:<span id="wins"></span></p>
+        <p>Losses:<span id="losses"></span></p>
+      </div>
+    </div>
+    <script src="index.js" defer></script>
+  </body>
+</html>

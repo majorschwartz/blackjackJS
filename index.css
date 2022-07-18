@@ -1,0 +1,32 @@
+*,
+body {
+  text-align: center;
+  margin: 10px;
+}
+
+body {
+  background-color: green;
+  color: white;
+}
+
+.cards span {
+  padding: 2vw;
+  border: 1px solid white;
+  display: inline-block;
+  min-width: 20px;
+  font-weight: bold;
+}
+
+.question-answer {
+  margin: 0;
+}
+
+button {
+  border: 1px solid black;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 1px solid gold;
+}
